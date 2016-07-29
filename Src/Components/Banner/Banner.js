@@ -9,7 +9,7 @@ export default class Banner extends Component {
         return (
             <article className="banner" style={{height: document.body.scrollHeight}}>
                 <section className="banner_text">
-                    <h1>Journey</h1>
+                    <h1>ShootGame</h1>
                 </section>
             </article>
         )

@@ -20739,9 +20739,9 @@
 
 	var _Feature2 = _interopRequireDefault(_Feature);
 
-	var _Support = __webpack_require__(181);
+	var _Type = __webpack_require__(181);
 
-	var _Support2 = _interopRequireDefault(_Support);
+	var _Type2 = _interopRequireDefault(_Type);
 
 	var _Footer = __webpack_require__(184);
 
@@ -20774,7 +20774,7 @@
 	                null,
 	                _react2.default.createElement(_Banner2.default, null),
 	                _react2.default.createElement(_Feature2.default, null),
-	                _react2.default.createElement(_Support2.default, null),
+	                _react2.default.createElement(_Type2.default, null),
 	                _react2.default.createElement(_Footer2.default, null)
 	            );
 	        }
@@ -20834,7 +20834,7 @@
 	                    _react2.default.createElement(
 	                        'h1',
 	                        null,
-	                        'Journey'
+	                        'ShootGame'
 	                    )
 	                )
 	            );
@@ -20954,12 +20954,12 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '多种方式'
+	                            '多种弹道'
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            '支持文字、图片、音频、视频等方式'
+	                            '支持圆形、螺旋形、贝塞尔等方式'
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -20969,12 +20969,12 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '自拍登陆'
+	                            '自定义弹道'
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            '爽一波自拍,自拍又登陆'
+	                            '支持自定义方程式弹道'
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -20984,57 +20984,12 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '偷看别人'
+	                            '声效'
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            '尝试人旁观者进入你的内心'
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        'li',
-	                        null,
-	                        _react2.default.createElement('i', { className: 'fa fa-car', 'aria-hidden': 'true' }),
-	                        _react2.default.createElement(
-	                            'h3',
-	                            null,
-	                            '建立群组'
-	                        ),
-	                        _react2.default.createElement(
-	                            'p',
-	                            null,
-	                            '知己分享,只让特殊的好友了解自己'
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        'li',
-	                        null,
-	                        _react2.default.createElement('i', { className: 'fa fa-plane', 'aria-hidden': 'true' }),
-	                        _react2.default.createElement(
-	                            'h3',
-	                            null,
-	                            '长期保存'
-	                        ),
-	                        _react2.default.createElement(
-	                            'p',
-	                            null,
-	                            '在Journey发送的任何内容,承诺长期保存'
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        'li',
-	                        null,
-	                        _react2.default.createElement('i', { className: 'fa fa-rocket', 'aria-hidden': 'true' }),
-	                        _react2.default.createElement(
-	                            'h3',
-	                            null,
-	                            '承诺安全'
-	                        ),
-	                        _react2.default.createElement(
-	                            'p',
-	                            null,
-	                            '你的内心独白,你想保密,就没人能看到'
+	                            '每种子弹,都有啪啪啪的音效'
 	                        )
 	                    )
 	                )
@@ -21115,16 +21070,16 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Support = function (_Component) {
-	    _inherits(Support, _Component);
+	var Type = function (_Component) {
+	    _inherits(Type, _Component);
 
-	    function Support() {
-	        _classCallCheck(this, Support);
+	    function Type() {
+	        _classCallCheck(this, Type);
 
-	        return _possibleConstructorReturn(this, Object.getPrototypeOf(Support).apply(this, arguments));
+	        return _possibleConstructorReturn(this, Object.getPrototypeOf(Type).apply(this, arguments));
 	    }
 
-	    _createClass(Support, [{
+	    _createClass(Type, [{
 	        key: 'render',
 	        value: function render() {
 	            return _react2.default.createElement(
@@ -21136,7 +21091,7 @@
 	                    _react2.default.createElement(
 	                        'h1',
 	                        null,
-	                        '支持'
+	                        '模式'
 	                    )
 	                ),
 	                _react2.default.createElement(
@@ -21149,12 +21104,12 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '文字'
+	                            '闯关模式'
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            '想写啥就写啥,内心独白'
+	                            '独特的障碍物和怪兽,我要拿高分'
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -21164,42 +21119,12 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '图片'
+	                            '对战模式'
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            '发个照片,应景一下'
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        'li',
-	                        null,
-	                        _react2.default.createElement('i', { className: 'fa fa-wheelchair-alt', 'aria-hidden': 'true' }),
-	                        _react2.default.createElement(
-	                            'h3',
-	                            null,
-	                            '语音'
-	                        ),
-	                        _react2.default.createElement(
-	                            'p',
-	                            null,
-	                            '语音的魅力,时光也挡不住'
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        'li',
-	                        null,
-	                        _react2.default.createElement('i', { className: 'fa fa-car', 'aria-hidden': 'true' }),
-	                        _react2.default.createElement(
-	                            'h3',
-	                            null,
-	                            '视频'
-	                        ),
-	                        _react2.default.createElement(
-	                            'p',
-	                            null,
-	                            '动词哒词,动词哒词'
+	                            '带上你的子弹,搞定你的敌人'
 	                        )
 	                    )
 	                )
@@ -21207,10 +21132,10 @@
 	        }
 	    }]);
 
-	    return Support;
+	    return Type;
 	}(_react.Component);
 
-		exports.default = Support;
+		exports.default = Type;
 
 /***/ },
 /* 182 */
@@ -21228,8 +21153,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/sass-loader/index.js!./Support.scss", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/sass-loader/index.js!./Support.scss");
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/sass-loader/index.js!./Type.scss", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/sass-loader/index.js!./Type.scss");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -21298,7 +21223,7 @@
 	                _react2.default.createElement(
 	                    'p',
 	                    null,
-	                    'Journey by 404_K'
+	                    'ShootGame by 404_K'
 	                )
 	            );
 	        }
