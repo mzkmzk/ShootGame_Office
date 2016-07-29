@@ -1,0 +1,31 @@
+.feature {
+    display: flex;
+    flex-flow: column;
+    >section {
+        align-self: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    >ul {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        list-style-type: none;
+        li {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            flex: 1 1 33%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            >i {
+                font-size: 70px;
+                color: #0074D9;
+            }
+            >h3 {
+                padding-top: 15px;
+            }
+
+        }
+    }
+}

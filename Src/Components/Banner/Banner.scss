@@ -1,0 +1,11 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  url('Image/10188.jpg') top center/cover no-repeat ;
+    .banner_text {
+        h1 {
+            font-size: 50px;
+        }
+    }
+}
